@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-Blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+
+font-family: Poppins;
+font-size: 15px;
+}
+
+@media only screen and (max-width: 37.5em) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 375px;
+        background-color: #FAFAFA;
+        padding: 85px 32px 78px 32px;
+        
+
+    }
+
+    h1 {
+        color: #4D4F62;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.167px;
+    text-align: center;
+    }
+
+    h1 span {
+        color: #4D4F62;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.167px;
+    }
+
+    h3 {
+        color: var(--Grayish-Blue);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: 0.104px;
+    padding-bottom: 76px;
+    }
+
+    .feature-box {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        max-width: 311px;
+        max-height: 222px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+        margin-bottom: 20px;
+    }
+
+    .ft-1 {
+        border-top: 3.552px solid #44d3d2;
+    }
+
+    .ft-2 {
+        border-top: 3.552px solid #EA5454;
+    }
+
+    .ft-3 {
+        border-top: 3.552px solid #FCAE4A;
+    }
+
+    .ft-4 {
+        border-top: 3.552px solid #549EF2;
+    }
+
+    h4 { 
+        color: #4D4F62;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    }
+
+    .feature-box p {
+    color: var(--Grayish-Blue);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 176.923% */
+    letter-spacing: 0.09px;
+    }
+
+    .feature-box img {
+        width: 57px;
+        height: 57px;
+        flex-shrink: 0;
+        align-self: flex-end;
+    }
+}
